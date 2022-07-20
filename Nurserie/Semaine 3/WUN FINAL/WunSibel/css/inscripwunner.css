@@ -1,0 +1,82 @@
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.corpsformulaire{
+    font-family: 'source_sans_proextralight' !important;
+}
+
+
+@font-face {
+    font-family: 'source_sans_proextralight';
+    src: url('../fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+footer{
+    font-family: 'source_sans_proextralight' !important;
+
+}
+
+.form{
+    margin-left: 40px;
+}
+
+
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+h3{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+.reseaux{
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.res1{
+    height: 50px;
+    width: 50px;
+    border: solid rgba(0, 0, 0, 0.031) 1px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+
+
+.res2{
+    height: 50px;
+    width: 50px;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+
+.res3{
+    height: 50px;
+    width: 50px;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    border-radius: 15px;
+    margin-right: 10px;
+}

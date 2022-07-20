@@ -1,0 +1,9 @@
+Pour modifier sur git:
+
+git add .
+    |
+git commit -m "un message"
+    |
+git pull  (récupere un dépot distant) 
+    |
+git push  (envoie d'une modification)

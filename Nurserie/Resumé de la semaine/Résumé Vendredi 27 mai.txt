@@ -1,0 +1,5 @@
+Journée Vendredi 27 mai
+
+Matin on a fini notre Wireframe du cv de la veille puis on a commencer a voir comment fonctionner Figma
+Apres midi on a appris a utiliser Figma puis on a eu pour exercices de reproduire la page de Deliveroo avec
+des boutons cliquable pour redirigé vers une nouvelle page 

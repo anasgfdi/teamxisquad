@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'extralight';
+    src: url('./fonts/finlandica-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:'extralight';
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_bar{
+    border-radius: 100px;
+}
+
+.loupe{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.insco{
+    border-radius:100px;
+}
+
+.insco:hover{
+    opacity:0.5;
+}
+
+h1{ display:flex;
+    justify-content: center;
+}
+
+.pbienvenue{
+    display:flex;
+    justify-content: center;
+}
+
+.connexion{
+    border: solid black 3px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    /* margin-left: 300px; */
+    border-radius: 20px;
+}
+
+.mail{
+    margin-bottom: 30px;
+    margin-top:30px; 
+}
+
+.mdp{
+    margin-bottom: 30px;
+}
+
+.checkbox{
+    margin-bottom: 30px;
+}
+
+.forget{
+    margin-bottom: 30px;
+}
+
+.button{
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+}
+
+.membre{
+    margin-bottom: 30px;
+}
+
+.facebook{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color:  #2281EF;
+    color: white;
+}
+
+.facebook:hover{
+    opacity: 0.5;
+}
+
+.modal{
+    border: solid black 3px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+/* .modal:nth-child(3){justify-content: center;} */

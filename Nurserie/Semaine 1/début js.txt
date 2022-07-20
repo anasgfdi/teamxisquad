@@ -1,0 +1,11 @@
+JavaScript
+
+chaîne de caractère                string / str / chaine de caractere
+123456                             integer / int / nombre entier 
+12.5                               float / nombre a virgule
+true/false                         booléen
+null
+undefined
+
+let text= "une phrase \"un mot entre guillement\""
+let text2= 'une autre phrase'

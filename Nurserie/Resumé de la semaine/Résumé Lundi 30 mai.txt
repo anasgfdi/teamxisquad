@@ -1,0 +1,13 @@
+Journée du 30/05/2022
+
+Matin petite revu de ce qu'est un code html 
+ensuite on a vu les bases de certaines balise avec des activités tels que:
+création de liste
+création de tableaux avec du css
+
+Apres midi
+on a vu comment crée un formulaire avec different champs a remplir et avec des champs obligatoires
+type réservation d'une chambre d'hotel (<form></form> <label></label> <input></input>)
+
+ctrl+entrée pour aller a la ligne sans balise
+ctrl+D pour selectionner tout les mots qui se repete dans le code

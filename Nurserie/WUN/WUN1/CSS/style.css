@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'extralight';
+    src: url('./fonts/finlandica-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:'extralight';
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_bar{
+    border-radius: 100px;
+}
+
+.loupe{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.insco{
+    border-radius:100px;
+}
+
+.insco:hover{
+    opacity:0.5;
+}
+

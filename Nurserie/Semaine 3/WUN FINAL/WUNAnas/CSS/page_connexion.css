@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'extralight';
+    src: url('./fonts/finlandica-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{ 
+    z-index:1 ;
+    font-family: 'source_sans_proextralight';
+  
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.search_bar{
+    border-radius: 100px;
+}
+
+.loupe{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.insco{
+    border-radius:100px;
+}
+
+.insco:hover{
+    opacity:0.5;
+}
+
+h1{ display:flex;
+    justify-content: center;
+}
+
+.pbienvenue{
+    display:flex;
+    justify-content: center;
+}
+
+.connexion{
+    border: solid black 3px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    /* margin-left: 300px; */
+    border-radius: 20px;
+}
+
+.mail{
+    margin-bottom: 30px;
+    margin-top:30px; 
+}
+
+.mdp{
+    margin-bottom: 30px;
+}
+
+.checkbox{
+    margin-bottom: 30px;
+}
+
+.forget{
+    margin-bottom: 30px;
+}
+
+.button{
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+}
+
+.membre{
+    margin-bottom: 30px;
+}
+
+.facebook{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color:  #2281EF;
+    color: white;
+}
+
+.facebook:hover{
+    opacity: 0.5;
+}
+
+.modal{
+    background-color: white;
+    border: solid black 3px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.bg-img
+{
+    
+    background-image:url('../Images/foret.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    position: fixed;
+    top:0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+@font-face {
+    font-family: 'source_sans_proextralight';
+    src: url('../fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+footer{
+    z-index: 50;
+    font-family: 'source_sans_proextralight' !important;
+
+}
+
+
+.reseaux{
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.res1{
+    height: 50px;
+    width: 50px;
+    border: solid rgba(0, 0, 0, 0.031) 1px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+
+
+.res2{
+    height: 50px;
+    width: 50px;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+
+.res3{
+    height: 50px;
+    width: 50px;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+/* .modal:nth-child(3){justify-content: center;} */

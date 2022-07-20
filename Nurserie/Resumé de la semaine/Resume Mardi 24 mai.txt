@@ -1,0 +1,30 @@
+Trello 
+
+n°us: user storie 1 
+Titre: Se connecter
+Description: en tant qu'utilisateur 
+je veux pouvoir me connecter 
+afin de pouvoir acceder a tout le contenu du site 
+
+
+"en tant que" "je veux/je souhaite"  "Afin de"
+
+Miro 
+Création des Backlog et ensuite d'un parcours utilisateur avec une légende 
+
+
+
+Crée le backlog et parcours utilisateur
+
+Experience/formation/diplomes
+Image / nom / prenom
+pouvoir mettre ces infos personnel,
+pouvoir voir ces experiences competences mais séparé petit bouton pour supprimer / modifier
+se connecter 
+création de compte 
+suppression de compte 
+modification de mots de passe 
+mots de passe perdu 
+
+
+2 ieme page formulaire qui demande date d'experience / lieux 

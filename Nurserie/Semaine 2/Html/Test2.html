@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html lang="fr">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Test.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#f1">Formulaire</a>
+    <p>
+        <h1><center>Exercices</center></h1>
+        <ul>
+            <li>Differents métier</li>
+            <li>Develloppement Front end
+                <ol>
+                    <li>HTML</li>
+                    <li>css</li>
+                </ol>
+            <li>Develloppement Back end
+                <ol>
+                    <li class="li1">Couleur 1</li>
+                    <li class="li2">Couleur 2</li>
+                </ol>
+            <li>Optimisation</li>
+            <li>Référencement</li>
+        </ul>
+    </p>
+
+    <table>
+        <tr class="tr1">
+            <th class="th1">Images</th>
+            <th>Nom</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><a href="default.asp"> 
+                <img src="images/chien1.jpg" alt="test" width="250" height="150"></td>
+            <td>Berger australien</td>
+            <td>blabla</td>
+        </tr>
+        <tr>
+            <td><a href="google.fr">
+                <img src="images/chien2.jpg" alt="test2" width="250" height="150" ></td>
+            <td>Husky</td>
+            <td>blabla</td>
+        </tr>
+        <tr>
+            <td><a href="google.fr">
+                <img src="images/chien3.jpg" alt="test3" width="250" height="150"></td>
+            <td>Berger allemand</td>
+            <td>blabla</td>
+        </tr>
+    </table>
+    <form id="f1" action="#" method="get">
+        <label for="Nom">Votre Nom*: </label><br/>
+        <input type="text" id="Nom" name="Nom" placeholder="Nom" required ><br/>
+
+        <label for="Prenom">Votre Prénom*:</label><br/>
+        <input type="text" id="Prenom" name="Prenom" placeholder="Prenom" required ><br/>
+
+        <label for="tel">Numéro de téléphone*:</label><br/>
+        <input type="tel" name="tel" id="tel" placeholder="0605040201" required ><br/>
+        <label for="Mail">Adresse e-mail*:</label><br/>
+        <input type="email" name="Mail" id="Mail" required ><br/>
+
+        <label for="Choix de la ville">Selectionner la ville :</label></body><br/>
+        <select id="Choix de la ville" name="ville">
+            <option value="Paris">Paris</option>
+            <option value="Lille">Lille</option>
+            <option value="Lyon">Lyon</option>
+            <option value="Nice">Nice</option>
+            <option value="Marseille">Marseille</option>
+        </select><br/>
+
+        <label for=date>Date d'arrivée:</label><br/>
+        <input type="date" id="date" name="date" ><br/>
+
+        <label for="personnes">Nombre de personnes*:</label><br/>
+        <input type="number" id="personnes" name="personnes" min="0" max="5"  required ><br/>
+        
+        <p>Vos options:</p>
+        <input type="checkbox" name="Option" value="Climatisation">
+        <label for="Climatisation">Climatisation</label>
+        <input type="checkbox" name="Option" value="Mini Bar">
+        <label for="Mini Bar"> Mini Bar</label>
+        <input type="checkbox" name="Option" value="Jacuzzi">
+        <label for="Jacuzzi"> Jacuzzi</label><br/>
+
+        <textarea placeholder="Ajouter un commentaire" name="message" rows="5" cols="30" ></textarea>
+
+
+<p>Acceptation des Condition Générales de Vente (CGV)*:</p>
+        <input type="radio" name="CGV" value="oui" >
+        <label for="j'accepte">J'accepte</label>
+        <input type="radio" name="CGV" value="non" checked>
+        <label for="Je refuse">Je refuse</label><br/>
+        
+        <input type="submit" value="Envoyer ma demande">
+
+</form>
+</body>
+</html>

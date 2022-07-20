@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  mysql:
+    container_name: mysql
+    image: mysql
+    # restart: always
+    cap_add:
+      - SYS_NICE
+    ports:
+      - 3306:3306
+    networks:
+        - mysql_network
+    environment:
+      - MYSQL_DATABASE=exo_sql
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=admin
+  adminer:
+      image: adminer
+      container_name: mysql_adminer
+      # restart: always
+      ports:
+        - 8080:8080
+      networks:
+        - mysql_network
+      depends_on:
+        - mysql
+      environment:
+        ADMINER_DEFAULT_SERVER: mysql
+
+networks: 
+  mysql_network: {}

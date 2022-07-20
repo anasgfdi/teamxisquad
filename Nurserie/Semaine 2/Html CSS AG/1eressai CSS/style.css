@@ -1,0 +1,89 @@
+body {
+    background-image: url(./montagne_soleil.jpg);
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 1200px;
+    background-size: cover;
+}
+    
+
+h1 {
+    border: 5px solid black;
+    border-radius: 50%;
+    color:red;
+    width: fit-content;
+    margin:auto;
+    font-size: 50px;
+}
+
+h2 {
+    color:royalblue;
+    background-color: black;
+    font-size: 70px;
+    font-family: monospace;
+    /* width: fit-content;
+    margin:auto; */
+    text-align: center;
+    border-bottom: 15px solid white;
+    font-style: italic;
+    text-shadow: 5px 5px 5px grey;
+}
+
+.paragraphe2, h1,h2 {
+    background-color: blue;
+    color: white;
+}
+
+
+#paragraphe3 {
+    background: brown;
+    color: white;
+}
+
+/* div {background-color: white;
+    width: 500px;
+    height: 300px;
+    border:50px dotted green;
+    outline: yellow solid 15px;
+    outline-offset: 5px;} */
+
+
+
+section{width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+}
+
+a:hover{ color:black;}
+
+
+
+.lign{ background-color: aliceblue;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+}
+
+li{background-color: aliceblue;
+    list-style-image: url("./loupe\ \(1\).png");
+}
+
+.header{position: relative;
+}
+
+h1{position: absolute;}
+
+.lign{overflow: scroll;height: 100px;
+    overflow-x: hidden;
+}
+
+p::first-line{color:red; text-transform: uppercase;}
+
+img:hover{opacity: 0.5;}
+
+
+
+
+

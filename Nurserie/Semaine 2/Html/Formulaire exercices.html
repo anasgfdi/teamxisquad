@@ -1,0 +1,60 @@
+<html><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1><center>Votre réservation d'hotel</center></h1>
+    <h2><center>*Champs obligatoires:</center></h2>
+
+    <form action="#" method="get">
+        <label for="Nom">Votre Nom*: </label><br/>
+        <input type="text" id="Nom" name="Nom" placeholder="Nom" required ><br/>
+
+        <label for="Prenom">Votre Prénom*:</label><br/>
+        <input type="text" id="Prenom" name="Prenom" placeholder="Prenom" required ><br/>
+
+        <label for="tel">Numéro de téléphone*:</label><br/>
+        <input type="tel" name="tel" id="tel" placeholder="0605040201" required ><br/>
+        <label for="Mail">Adresse e-mail*:</label><br/>
+        <input type="email" name="Mail" id="Mail" required ><br/>
+
+        <label for="Choix de la ville">Selectionner la ville :</label></body><br/>
+        <select id="Choix de la ville" name="ville">
+            <option value="Paris">Paris</option>
+            <option value="Lille">Lille</option>
+            <option value="Lyon">Lyon</option>
+            <option value="Nice">Nice</option>
+            <option value="Marseille">Marseille</option>
+        </select><br/>
+
+        <label for=date>Date d'arrivée:</label><br/>
+        <input type="date" id="date" name="date" ><br/>
+
+        <label for="personnes">Nombre de personnes*:</label><br/>
+        <input type="number" id="personnes" name="personnes" min="0" max="5"  required ><br/>
+        
+        <p>Vos options:</p>
+        <input type="checkbox" name="Option" value="Climatisation">
+        <label for="Climatisation">Climatisation</label>
+        <input type="checkbox" name="Option" value="Mini Bar">
+        <label for="Mini Bar"> Mini Bar</label>
+        <input type="checkbox" name="Option" value="Jacuzzi">
+        <label for="Jacuzzi"> Jacuzzi</label><br/>
+
+        <textarea placeholder="Ajouter un commentaire" name="message" rows="5" cols="30" ></textarea>
+
+
+<p>Acceptation des Condition Générales de Vente (CGV)*:</p>
+        <input type="radio" name="CGV" value="J'accepte" required>
+        <label for="j'accepte">J'accepte</label>
+        <input type="radio" name="CGV" value="Je refuse" required>
+        <label for="Je refuse">Je refuse</label><br/>
+        <input type="submit" value="Envoyer ma demande">
+
+</form>
+</body>
+</html></html>

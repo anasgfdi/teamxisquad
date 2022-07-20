@@ -1,0 +1,62 @@
+Conduire un projet, c'est faire tout son possible pour faire en sorte que le projet atteigne ses objectifs, on distingue 4 axes principaux :
+-Le respect des objectifs de qualité des livrables
+-Le respect des délais
+-Le respect des coûts
+-La satisfaction du client
+
+Conduire un projet c'est : prévoir, animer et contrôler.
+
+
+Les différentes étapes à suivre pour établir un projet :
+-Définir des besoins
+-Analyser ces besoins
+-Concevoir
+-Réaliser
+-Déployer
+-Piloter
+
+
+Maître d'oeuvre c'est le réalisateur du projet; tandis que le maître d'ouvrage c'est le client.
+
+Attention la mise en production du produit ne veut pas dire qu'il ne subira pas de correction ou d'évolution, au contraire un bon produit est un
+produit qui est en constant maintien en condition opérationnelle.
+
+Les étapes de conceptions du projet :
+-L'expression du besoin
+-Un cahier des charges
+-Spécifications fonctionnelles détaillées
+-L'identification des spécification techniques
+
+L'étape de réalisation :
+-On développe les briques, qu'on assemblera plus tard sous l'aspect d'un produit fini.
+
+Les étapes de validations :
+-Les tests unitaires : on teste les briques une à une
+-Les tests d'intégration: on teste les briques afin de contrôler le respect des spécifications techniques
+-La validation : on ne peut valider le produit fini qu'à partir du moment où les spécifications fonctionnelles ont toutes été vérifiées
+-La mise en production et la recette : après une dernière vérification en pré-production, on met le produit fini en production
+
+
+Scrum:
+Le scrum contient un product backlog, une réunion de départ de sprint, un sprint backlog, le sprint (qui ne peut subir de changement de durée ou de but),
+ensuite si le produit qui sort du premier sprint passe tout les tests et la validation il peut être commercialiser et amélioré, alors que si le produit qui ressort
+du premier sprint ne passe pas certains tests ou alors rencontre des difficultées on peut se fixer un autre sprint pour amélioré le produit, durant les sprints chaque jour 
+il y a une Daily Scrum, une fois le sprint fini il y a une Review, et enfin après que le projet ait été terminer il y a une Retrospective (only positif).
+Un produit fini est ajouté à l'incrémental fini.
+
+-Le product Backlog est une liste qui contient tout les besoins, fonctions, features que souhaite le client, l'utilisateur final ou encore les parties prenantes avoir dans le produit.
+-La réunion de départ de sprint sert à définir le travail à réaliser jusqu'à la fin du sprint (et donc à déterminer la durée de celui-ci)
+-Le sprint Backlog est une liste qui contient les fonctions, features sur lesquels on veut se focaliser durant le sprint (elles sont choisis dans la product Backlog et pas forcément dans l'ordre)
+-La réunion de Daily Scrum sert à répondre 3 questions : Qu'as-tu fait hier, que va tu faire ajd, et as-tu repérer des obstacles/problèmes qui pourrait gêner le bon déroulement du projet
+-La review sert à inspecter l'incrémental fini à la fin du sprint, et à échanger sur ce qui a été fait durant le sprint.
+-La rétrospective sert à inspecter la manière dont le dernier sprint s'est dérouler en ce qui concerne les personnes, les relations, les processus et les outils;
+à identifier et ordonner les principaux éléments qui ont bien fonctionné et des améliorations potentielles; à créer un plan pour mettre en oeuvre des améliorations sur la façon dont l'équipe Scrum fait son travail;
+et elle doit toujours être positive.
+
+Grooming : 
+Le grooming c'est détecter quand les user stories/features n'ont plus de sens pour le projet; de formuler les nouvelles user stories si des besoins apparaissent;
+de réevaluer l'ordre de priorité des user stories dans le product backlog; de corriger les estimations en fonction des nouvelles informations; de découper les user stories qui pourraient candidater aux prochains sprints.
+
+Poker Planning :
+Le poker planning c'est une façon ludique de faire une estimation sur l'effort de développement des fonctionnalités (les tâches, user stories)
+
